@@ -1,10 +1,19 @@
-title: Mobile App Developer | Flutter Developer
+repository: m7mdmaken/m7mdmaken.github.io
+version: 2
 name: M7md Maken
+title: Mobile App Developer | Flutter Developer
 email: m7mdmaken@gmail.com
 phone: +201096587177
+website: https://m7mdmaken.github.io
 linkedin: https://linkedin.com/in/m7mdalmaken
 github: https://github.com/m7mdmaken
-
+darkmode: false
+twitter_username: m7mdmaken
+github_username: m7mdmaken
+about_profile_image: images/profile.jpg
+about_content: |
+  I'm a skilled Flutter developer specializing in cross-platform mobile apps using Dart. I write clean, scalable code, applying strong problem-solving skills and attention to detail to deliver high-quality solutions.
+  Passionate about learning and creativity, I create impactful, maintainable applications that meet real-world needs.
 content:
   - title: Summary
     layout: text
@@ -13,33 +22,56 @@ content:
       Passionate about learning and creativity, I create impactful, maintainable applications that meet real-world needs.
   - title: Education
     layout: list
-    content: 
-      - title: Bachelor of Engineering, Mansoura University
+    content:
+      - layout: left
+        title: Bachelor of Engineering, Mansoura University
         sub_title: Major: Communication and Computer
         caption: GPA: 3.08 / 4.0
   - title: Projects
     layout: list
-    content: 
-      - title: Personal Weather App
+    content:
+      - layout: left
+        title: Personal Weather App
         sub_title: Developed a cross-platform weather app using Flutter
         caption: Integrated OpenWeatherMap API for real-time weather data
         link: https://github.com/m7mdmaken/personal-weather-app
         link_text: View on GitHub
   - title: Training & Certifications
     layout: list
-    content: 
-      - title: Mobile Application Development Training
+    content:
+      - layout: left
+        title: Mobile Application Development Training
         sub_title: Digital Egypt Pioneers Initiative - DEPI
         caption: 04/2024 - 10/2024
         link: https://drive.google.com/file/d/1hUnGS08wIHvJVi2ru9yAx52zYO3TPfaO/view?usp=sharing
         link_text: View certificate
   - title: Skills
     layout: list
-    content: 
-      - title: Hard Skills
+    content:
+      - layout: left
+        title: Hard Skills
         sub_title: Technical skills
         caption: Flutter, REST API, State management, Data structure / Algorithms, Firebase, Git / Github
-      - title: Soft Skills
+      - layout: left
+        title: Soft Skills
         sub_title: Non-technical skills
         caption: Teamwork, Problem-solving, Time Management, Critical Thinking, Attention to Detail, Work Ethic
 baseurl: ""
+footer_show_references: true
+remote_theme: sproogen/modern-resume-theme
+sass:
+  sass_dir: _sass
+  style: compressed
+plugins:
+  - jekyll-seo-tag
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "node_modules"
+  - "vendor/bundle/"
+  - "vendor/cache/"
+  - "vendor/gems/"
+  - "vendor/ruby/"
+  - "lib/"
+  - "scripts/"
+  - "docker-compose.yml"
