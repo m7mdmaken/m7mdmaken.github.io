@@ -39,3 +39,6 @@ content:
       - title: Hard Skills
         sub_title: Technical skills
         caption: Flutter, REST API, State management, Data structure / Algorithms, Firebase, Git / Github
+      - title: Soft Skills
+        sub_title: Non-technical skills
+        caption: Teamwork, Problem-solving, Time Management, Critical Thinking, Attention to Detail, Work Ethic
