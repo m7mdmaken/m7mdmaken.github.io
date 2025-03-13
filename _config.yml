@@ -1,4 +1,4 @@
-repository: m7mdmaken/m7mdmaken.github.io
+yrepository: m7mdmaken/m7mdmaken.github.io
 version: 2
 name: M7md Maken
 title: Mobile App Developer | Flutter Developer
@@ -25,8 +25,8 @@ content:
     content:
       - layout: left
         title: Bachelor of Engineering, Mansoura University
-        sub_title: Major: Communication and Computer
-        caption: GPA: 3.08 / 4.0
+        sub_title: "Major: Communication and Computer"
+        caption: "GPA: 3.08 / 4.0"
   - title: Projects
     layout: list
     content:
