@@ -1,132 +1,77 @@
-# Site settings
-title: Mohamed Almaken | Mobile App Developer
-url: 'https://m7mdmaken.github.io'
-baseurl: ''
-repository: m7mdmaken/m7mdmaken.github.io
-favicon: images/favicon.ico
-
-# Theme Settings
-theme_settings:
-  # Meta
-  title: Mohamed Almaken
-  description: Mobile App Developer | Flutter Developer
-  avatar: images/profile.jpg
-
-# Personal Info
-name: Mohamed Almaken
+yrepository: m7mdmaken/m7mdmaken.github.io
+version: 2
+name: M7md Maken
 title: Mobile App Developer | Flutter Developer
 email: m7mdmaken@gmail.com
 phone: +201096587177
-website: m7mdmaken.github.io
-
-# Social Links
-twitter_username: 
+website: https://m7mdmaken.github.io
+linkedin: https://linkedin.com/in/m7mdalmaken
+github: https://github.com/m7mdmaken
+darkmode: false
+twitter_username: m7mdmaken
 github_username: m7mdmaken
-linkedin_username: m7mdalmaken
-
-# About Section
-about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: >
-  I'm a skilled Flutter developer specializing in cross-platform mobile apps using Dart. I write clean, scalable code, 
-  applying strong problem-solving skills and attention to detail to deliver high-quality solutions.
-  
+about_content: |
+  I'm a skilled Flutter developer specializing in cross-platform mobile apps using Dart. I write clean, scalable code, applying strong problem-solving skills and attention to detail to deliver high-quality solutions.
   Passionate about learning and creativity, I create impactful, maintainable applications that meet real-world needs.
-
-# Education
-education:
-  - name: Mansoura University
-    dates: 
-    qualification: Bachelor of Engineering
-    description: >
-      Major: Communication and Computer
-      GPA: 3.08 / 4.0
-
-# Projects
-projects:
-  - name: Personal Weather App
-    link: 
-    github: 
-    quote: Cross-platform weather application built with Flutter
-    description: >
-      - Developed a cross-platform weather app using Flutter
-      - Integrated OpenWeatherMap API for real-time weather data
-      - Used Provider for state management & shared preferences for local storage
-  
-  - name: To-Do List App
-    link:
-    github:
-    quote: Fully functional to-do application with local storage
-    description: >
-      - Built a fully functional to-do app with CRUD operations using Flutter
-      - Used SQLite for local data persistence
-      - Designed a clean UI with custom animations
-
-# Experience / Training
-experience:
-  - company: Digital Egypt Pioneers Initiative - DEPI
-    link: https://drive.google.com/file/d/1hUnGS08wIHvJVi2ru9yAx52zYO3TPfaO/view?usp=sharing
-    job_title: Mobile Application Development Training
-    dates: April 2024 - October 2024
-    quote: Ministry of Communications, MCIT
-    description: >
-      This training has provided me with essential technical skills and professional capabilities in mobile app development:
-      
-      - Learned Kotlin and Java for Android app development
-      - Mastered Flutter for creating cross-platform mobile applications
-      - Developed mobile interfaces that adapt to various screen sizes
-      - Gained knowledge in app architecture and performance optimization
-      - Enhanced communication skills in technical environments
-      - Developed teamwork, problem-solving, and project management abilities
-      - Explored client management and pricing strategies on freelance platforms
-  
-  - company: Udemy
-    link: 
-    job_title: Flutter Development
-    dates: 2024
-    description: >
-      Mastered Dart and Flutter fundamentals, built responsive UIs, managed state with BLoC/MVVM, 
-      and integrated Firebase to create real-world applications.
-  
-  - company: Cloud Native Basecamp
-    link: 
-    job_title: Data Structures & Algorithms
-    dates: 2023
-    description: >
-      Developed a strong understanding of core data structures, algorithmic techniques, and complexity analysis.
-
-# Skills
-skills:
-  - title: Hard Skills
-    description: >
-      Flutter, REST API, State management, Data structure / Algorithms, Firebase, Git / Github
-  
-  - title: Soft Skills
-    description: >
-      Teamwork, Problem-solving, Time Management, Critical Thinking, Attention to Detail, Work Ethic
-
-# Footer
+content:
+  - title: Summary
+    layout: text
+    content: |
+      I'm a skilled Flutter developer specializing in cross-platform mobile apps using Dart. I write clean, scalable code, applying strong problem-solving skills and attention to detail to deliver high-quality solutions.
+      Passionate about learning and creativity, I create impactful, maintainable applications that meet real-world needs.
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Bachelor of Engineering, Mansoura University
+        sub_title: "Major: Communication and Computer"
+        caption: "GPA: 3.08 / 4.0"
+  - title: Projects
+    layout: list
+    content:
+      - layout: left
+        title: Personal Weather App
+        sub_title: Developed a cross-platform weather app using Flutter
+        caption: Integrated OpenWeatherMap API for real-time weather data
+        link: https://github.com/m7mdmaken/personal-weather-app
+        link_text: View on GitHub
+  - title: Training & Certifications
+    layout: list
+    content:
+      - layout: left
+        title: Mobile Application Development Training
+        sub_title: Digital Egypt Pioneers Initiative - DEPI
+        caption: 04/2024 - 10/2024
+        link: https://drive.google.com/file/d/1hUnGS08wIHvJVi2ru9yAx52zYO3TPfaO/view?usp=sharing
+        link_text: View certificate
+  - title: Skills
+    layout: list
+    content:
+      - layout: left
+        title: Hard Skills
+        sub_title: Technical skills
+        caption: Flutter, REST API, State management, Data structure / Algorithms, Firebase, Git / Github
+      - layout: left
+        title: Soft Skills
+        sub_title: Non-technical skills
+        caption: Teamwork, Problem-solving, Time Management, Critical Thinking, Attention to Detail, Work Ethic
+baseurl: ""
 footer_show_references: true
-references_title: References
-
-# Build settings
 remote_theme: sproogen/modern-resume-theme
 sass:
   sass_dir: _sass
   style: compressed
-
 plugins:
- - jekyll-seo-tag
-
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
+  - jekyll-seo-tag
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "node_modules"
+  - "vendor/bundle/"
+  - "vendor/cache/"
+  - "vendor/gems/"
+  - "vendor/ruby/"
+  - "lib/"
+  - "scripts/"
+  - "docker-compose.yml"
